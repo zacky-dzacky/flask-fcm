@@ -1,3 +1,6 @@
+# FCM with flask
+> Project ini berisi beberapa baris kode bagaimana cara menggunakan _Firebase Cloud Messaging_ dengan sangat sederhana menggunakan flask. Salah satu alasan kenapa python sangat sehat untuk waktu mu.
+
 ## Table of contents
 * [Flask Project](#flask-project)
 * [Instalasi module](#instalasi-module)
@@ -5,6 +8,11 @@
 
 ## Buat Flask Project
 This project is simple Lorem ipsum dolor generator.
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
 	
 ## Instalasi module
 Module yang diperlukkan:
@@ -12,10 +20,5 @@ Module yang diperlukkan:
 * pyfcm: 2.33
 	
 ## Firebase console
-To run this project, install it locally using npm:
+* Buka konsol firebase `https://console.firebase.com`
 
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
